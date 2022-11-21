@@ -1,0 +1,178 @@
+/* css syntax  and Selector*/
+h1{
+    color:aquamarine;
+    text-align: center;
+
+}
+p{
+    color: rgb(212, 55, 159);
+}
+
+/* the comment in css are done like that */
+/* p{
+  No, one is perfect
+} */
+/* In css the coloring are done in the following ways  */
+/* they are RBG, HEX, HSL, RGBA, HSLA */
+p{
+    color: rgb(212, 55, 159);
+}
+
+
+
+/* The border-style property and outline are done like that */
+h3{
+    border-style: double;
+    outline-style: dotted;
+}
+
+
+
+ /* Box model including border,padding and margin and width and height are done here */
+
+ .same{
+    height: 200px;
+    width: 50%;
+    border: 10px solid green;
+    padding: 20px;
+    margin: 20px;
+
+}
+/* font are done in different ways */
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+
+
+}
+/* Style a link with a color */
+/* ul.unorder
+{
+  list-style-type: square;
+} */
+.unorder{
+
+}
+  /* tables are done like that in style.css */
+  table, th, td {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+  }
+  /* display */
+  li {
+    display: flex;
+  }
+  /* css Maximum-with */
+.four{
+  max-width: 200px;
+}
+/* positioning in css */
+ol #one{
+  position: static;
+}
+/* z-index in css */
+.picture {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  height: 20px;
+}
+ .love{
+  height: 70px;
+  width: 200px;
+  background-color: aqua;
+  border: 1px solid black;
+  overflow: visible;
+
+}
+  /* float and opacity */
+
+img{
+  float: right;
+  opacity: 0.5;
+ /*  */
+}
+/* i have done both css pseudo-class and element together */
+button{
+  background-color: green;
+  color: aliceblue;
+  padding: 25px;
+  text-align: center;
+
+}
+button:hover{
+  background-color: blue;
+
+}
+/* css using navigation bar */
+button::first-letter{
+  color: blueviolet;
+  font-size: xx-large;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/* dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+input forms{
+  width: 100%;
+}
+
+/* css layout */
+ .header{
+  background-color: brown;
+  padding: 20px;
+  color: black;
+  
+  
+} 
+/* !important */
+strong{
+  background-color:blue;
+}
+/* rounded corner */
+.Dawa{
+  background-color:green;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px 20px 20px 20px;
+}
+/* border image */
+.ooo{
+  border: 10px solid transparent;
+  padding: 15px;
+  
+}
+.text{
+  text-shadow: 5px 5px 5px black;
+}
